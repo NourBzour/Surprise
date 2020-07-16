@@ -1,0 +1,49 @@
+
+.hello{
+
+    
+    padding: 5%;
+    margin: 2%;
+    opacity: 0.5;
+    background-image: cover;
+    width: 15rem;
+    
+   
+  }
+  .hello:hover{
+      opacity: 2;
+  }
+  .hell{
+  
+      margin-left: 4%;
+    
+     padding-left: 1.5%;
+  }
+  
+  .map-container{
+      overflow: hidden;
+     justify-content: center;
+    
+     width: 62%;
+     
+     background-image: cover;
+     align-items: center;
+}
+
+img{
+    justify-content: center;
+    align-items: center;
+   background-image: cover;
+
+}
+
+.b{
+    
+    justify-content: center;
+   padding: 1%;
+    background-color: rgba(255, 255, 255, 0);
+    width: 45%;
+    
+    display: none;
+    margin-bottom: 1%;
+}

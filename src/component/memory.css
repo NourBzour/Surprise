@@ -1,0 +1,28 @@
+.directory-project{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+  
+    align-items: center;
+    
+}
+.sub{
+    color: rgb(255, 255, 255);
+    padding-top: 4%;
+    width: 80%;
+    padding-left: 26% ;
+}
+.sub1{
+    color: rgb(255, 255, 255);
+  
+   
+    padding-left: 29% ;
+}
+
+.sub2{
+    color: rgb(255, 255, 255);
+  
+   
+    padding-left: 35% ;
+}

@@ -1,0 +1,29 @@
+.bgf {
+
+ padding: 4%;
+   font-size: 18px;
+   margin: 10%;
+ 
+   color: rgb(19, 15, 15);
+ 
+   background-color: whitesmoke;
+    font-family: 'Inconsolata', monospace;
+}
+p{
+    
+    margin: 8px;
+}
+
+.mb{
+    
+ 
+    padding-left: 22%;
+    width: 80%;
+    position: bottom;
+}
+i{
+    font-size: 35px;
+    color: white;
+    padding-left: 14%;
+    margin-top: 10%;
+}

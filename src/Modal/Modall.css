@@ -1,0 +1,62 @@
+.modall {
+  z-index: 100;
+  position: fixed;
+  top: 2vh;
+  
+  width: 80%;
+  background: rgb(221, 216, 216);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+}
+
+.modall__header {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background: #2a006e;
+  color: white;
+}
+
+.modall__header h2 {
+  margin: 0.5rem;
+  padding-left: 46%;
+}
+
+.modall__content {
+  padding: 2%;
+}
+
+.modall__footer {
+  padding: 0.3rem 0.4rem;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .modall {
+    left: calc(50% - 20rem);
+    width: 43rem;
+   
+   
+  }
+}
+
+.modall-enter {
+  transform: translateX(40rem);
+  opacity: 0;
+}
+
+.modall-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.modall-exit {
+  transform: translateX(20);
+  opacity: 1;
+}
+
+.modall-exit-active {
+  transform: translateX(-50rem);
+  opacity: 0;
+  transition: all 200ms;
+}
